@@ -83,8 +83,8 @@
     }
 
 .svg:hover{
-  background-image: url("../file/svg2.jpg");
-  background-size: cover;
+  background-image: url("/file/svg3.jpg");
+  background-size:contain;
   background-repeat: no-repeat;
   color:transparent;
   transition-duration: 0.3s;
@@ -92,7 +92,7 @@
   
 }
 .png:hover{
-  background-image: url("../file/png.jpg");
+  background-image: url("/file/png.jpg");
  
   background-size: cover;
   background-repeat: no-repeat;
@@ -101,7 +101,7 @@
   background-size: cover;
 }
 .jpg:hover{
-  background-image: url("../file/jpg.jpg");
+  background-image: url("/file/jpg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color:transparent;
@@ -109,7 +109,7 @@
   background-size: cover;
 }
 .gif:hover{
-  background-image: url("../file/gif.jpg");
+  background-image: url("/file/gif.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color:transparent;
