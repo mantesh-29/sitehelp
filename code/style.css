@@ -13,6 +13,7 @@
     header{
       position:fixed;
     background-image: url("../file/bg1.png");
+    --tw-backdrop-blur: blur(20px);
     right:0;
     left:0;
     padding:10px 20px;
@@ -65,6 +66,18 @@
     main{
       padding-top: 70px;
     }
+
+.scrollup img{
+  position:fixed;
+  bottom:20px;
+  right:15px;
+  border-radius: 50%;
+  /* background-color: black; */
+  height:50px;
+  width:50px;
+}
+
+
     .tool-container{
       text-transform: uppercase;
       text-align: center;
@@ -94,7 +107,7 @@
     }
     a{
       font-weight: 900;
-      color: white;
+      color: rgb(0, 0, 0);
       text-decoration: none;
     }
 
@@ -142,3 +155,18 @@
   text-transform: uppercase;
   padding-top:20px ;
 }
+
+
+.img-pdf:hover{}
+.pdf-img:hover{}
+.word-pdf:hover{}
+
+
+
+.img-gen:hover{}
+.vid-gen:hover{}
+.code-gen:hover{}
+.vid-edit:hover{}
+.ppt:hover{}
+.gfx:hover{}
+.copy:hover{}
