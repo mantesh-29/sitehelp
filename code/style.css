@@ -18,7 +18,7 @@
     padding:10px 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    height:80px;
+    height:105px;
  
 
   }
@@ -47,10 +47,25 @@
       height:40px;
       width:40px;
     }
+
+
+    nav {
+      color:#010101;
+      text-transform: uppercase;
+      position: fixed;
+      right:5%;
+      top:80px;
+      font-size:20px;
+    }
+    nav a{
+      color:#010101;
+      padding-left: 10px;
+    }
+
     main{
       padding-top: 70px;
     }
-    .images{
+    .tool-container{
       text-transform: uppercase;
       text-align: center;
       padding:15px 0px 10px 0px;
@@ -74,6 +89,7 @@
     .img-body:hover{
       transform: scale(1.1);
       cursor: pointer;
+      transition-duration: 0.3s;
 
     }
     a{
@@ -89,11 +105,13 @@
   color:transparent;
   transition-duration: 0.3s;
   background-size: cover;
+  opacity:0.3;
   
 }
 .png:hover{
+  opacity:0.3;
   background-image: url("/file/png.jpg");
- 
+  
   background-size: cover;
   background-repeat: no-repeat;
   color:transparent;
@@ -107,6 +125,7 @@
   color:transparent;
   transition-duration: 0.3s;
   background-size: cover;
+  opacity:0.3;
 }
 .gif:hover{
   background-image: url("/file/gif.jpg");
@@ -115,6 +134,7 @@
   color:transparent;
   transition-duration: 0.3s;
   background-size: cover;
+  opacity:0.3;
 }
 .heading{
   font-size: 25px;
